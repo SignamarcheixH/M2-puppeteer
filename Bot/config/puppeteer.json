@@ -1,0 +1,23 @@
+{
+	"base_url": "https://www.instagram.com/",
+	"username": "BotFirebase",
+	"password": "botpassword",
+	"searchTags": ["plants"],
+	"settings": {
+		"headless": false,
+		"max_amount_pages": 10
+	},
+	"selectors": {
+		"username_field": "input[name='username']",
+		"password_field": "input[name='password']",
+		"login_button": "button[type='submit']",
+		"search_input": "nav div[role='button']",
+		"register_creds_modal": "main > div[style='height: 100%;']",
+		"register_creds_modal_buttons": "main > div[style='height: 100%;'] button",
+		"length_selector": "",
+		"svg_like": "article > div > section > span > button > div > span > svg",
+		"svg_button": "article > div > section > span > button",
+		"subscribe_button": "article > header button"
+	}
+
+}
